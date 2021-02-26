@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Teste",
+      "setup": "javac *.java",
+      "run": "java -cp . Main",
+      "input": "",
+      "output": "[Ola, tudo bem? Eu sou ]\\w*[ e moro em ]\\w*[.]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
