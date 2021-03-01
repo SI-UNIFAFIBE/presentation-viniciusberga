@@ -1,11 +1,11 @@
 {
   "tests": [
     {
-      "name": "Teste",
+      "name": "Validar o texto exato",
       "setup": "javac *.java",
       "run": "java -cp . Main",
       "input": "",
-      "output": "[Ola, tudo bem? Eu sou ]\\w*[ e moro em ]\\w*[.]",
+      "output": "(Olá tudo bem\\? Eu sou ).+( e moro em ).+(\\.)",
       "comparison": "regex",
       "timeout": 10,
       "points": 10
