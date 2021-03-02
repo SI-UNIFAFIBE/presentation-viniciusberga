@@ -5,7 +5,7 @@
       "setup": "javac *.java",
       "run": "java -cp . Main",
       "input": "",
-      "output": "(Olá tudo bem\\? Eu sou ).+( e moro em ).+(\\.)",
+      "output": "(Ola tudo bem\\? Eu sou ).+( e moro em ).+(\\.)",
       "comparison": "regex",
       "timeout": 10,
       "points": 10
