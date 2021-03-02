@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Validar o texto exato",
-      "setup": "javac *.java",
+      "setup": "javac -encoding UTF-8 *.java",
       "run": "java -cp . Main",
       "input": "",
       "output": "(Ola tudo bem\\? Eu sou ).+( e moro em ).+(\\.)",
